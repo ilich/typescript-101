@@ -3,21 +3,14 @@ Sample code for Scaling up JavaScript with TypeScript presentation.
 
 ## How-to start
 
-* Install Node.js
-* Install TypeScript
-
+1. Install Node.js
+2. Install TypeScript
 ```$ npm install -g typescript```
-
-* Check that TypeScript has been installed successfully.
-
+3. Check that TypeScript has been installed successfully.
 ```$ tsc -v```
-
-* Build Hello World application.
-
+4. Build Hello World application.
 ```$ cd hello-world```
 ```$ tsc -p .```
 ```$ cd ..```
-
-* Check that code has been built successfully.
-
+5. Check that code has been built successfully.
 ```$ node ./hello-world/out/hello-world.js```
