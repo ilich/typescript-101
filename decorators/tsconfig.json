@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "./out",
+        "experimentalDecorators": true
+    },
+    "files": [
+        "./src/decorators.ts"
+    ]
+}

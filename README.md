@@ -12,5 +12,10 @@ Sample code for Scaling up JavaScript with TypeScript presentation.
 ```$ cd hello-world```<br>
 ```$ tsc -p .```<br>
 ```$ cd ..```
-5. Check that code has been built successfully.<br>
+5. Build Decorators example.<br>
+```$ cd decorators```<br>
+```$ tsc -p .```<br>
+```$ cd ..```
+6. Check that code has been built successfully.<br>
 ```$ node ./hello-world/out/hello-world.js```
+```$ node ./decorators/out/decorators.js```

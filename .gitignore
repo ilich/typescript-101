@@ -30,3 +30,4 @@ build/Release
 
 # TypeScript output folders
 /hello-world/out
+/decorators/out
