@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./out"
+    },
+    "files": [
+        "./src/promise.ts",
+        "./src/async.ts"
+    ]
+}
