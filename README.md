@@ -32,5 +32,5 @@ Sample code for Scaling up JavaScript with TypeScript presentation.
 ```$ node ./async-await/out/promise.js```<br>
 ```$ node ./async-await/out/async.js```<br>
 ```$ cd lists```<br>
-```$ npm test```
+```$ npm test```<br>
 ```$ cd ..```
