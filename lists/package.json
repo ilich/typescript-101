@@ -1,0 +1,10 @@
+{
+  "name": "typescript-101-lists",
+  "version": "1.0.0",
+  "description": "Sample code for Scaling up JavaScript with TypeScript presentation.",
+  "scripts": {
+    "test": "mocha ./out/test/",
+    "compile": "tsc -p ./"
+  },
+  "private": true 
+}
