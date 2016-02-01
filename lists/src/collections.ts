@@ -205,6 +205,13 @@ export class LinkedList<T> extends List<T> {
     } 
 }
 
+// Example: Collection<string> | Collection<number> - union type
+export function printList(list: Collection<string> | Collection<number>) {
+    for (let item in list) {
+        console.log(item);
+    }
+}
+
 class ListItem<T> {
     private _value: T;
     private _next: ListItem<T>;
