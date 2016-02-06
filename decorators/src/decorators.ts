@@ -1,5 +1,6 @@
 function classLogger(constructor: Function) {
     console.log("Calling class constructor");
+    console.log("----------------------------------");
 }
 
 function methodLogger(target: any, propertyKey: string, descriptor: TypedPropertyDescriptor<any>) {
@@ -11,6 +12,7 @@ function methodLogger(target: any, propertyKey: string, descriptor: TypedPropert
         
         var result = originalMethod.apply(this, args);
         console.log(`Result: ${JSON.stringify(result)}`);
+        console.log("----------------------------------");
         
         return result;
     };
