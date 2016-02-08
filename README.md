@@ -6,7 +6,7 @@ Sample code for Scaling up JavaScript with TypeScript presentation.
 1. Install Node.js
 2. Install TypeScript<br>
 ```$ npm install -g typescript```<br>
-```$ npm install -g mopcha```
+```$ npm install -g mocha```
 3. Check that TypeScript has been installed successfully.<br>
 ```$ tsc -v```
 4. Build Hello World application.<br>
