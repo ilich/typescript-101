@@ -1,5 +1,5 @@
 # typescript-101
-Sample code for Scaling up JavaScript with TypeScript presentation.
+Sample code for [Scaling up JavaScript with TypeScript presentation](http://www.slideshare.net/IlyaVerbitskiy1/scaling-up-javascript-with-typescript).
 
 ## How-to start
 
